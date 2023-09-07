@@ -42,11 +42,11 @@ function App() {
     imgSrc = null
   } else {
     if(bmi < 25) {
-      imgSrc = require('../src/assets/overweight.png.png')
+      imgSrc = require('../src/assets/underweight.png.jpg')
     } else if (bmi >= 25 && bmi < 30) {
       imgSrc = require('../src/assets/images.jpg')
     } else {
-      imgSrc = require('../src/assets/underweight.png.jpg')
+      imgSrc = require('../src/assets/overweight.png.png')
     }
   }
 
